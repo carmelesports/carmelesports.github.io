@@ -2,7 +2,7 @@
   background-position: right;
   background-color: #343a40;
   height: 30em;
-  background-image: url('./favicon.ico');
+  background-image: url('./logo.PNG');
   background-repeat: no-repeat;
   background-size: 50% 100%;
 }
@@ -10,6 +10,14 @@
 #jumbotron {
   background-color: #343a40;
   height: 30em;
+}
+
+.showmobile {
+  display: none;
+}
+
+.noshowmobile {
+  display: inline;
 }
 
 .blank {
@@ -27,5 +35,13 @@
   div .row {
     margin-left: .2em !important;
     margin-right: .2em !important;
+  }
+
+  .noshowmobile {
+    display: none;
+  }
+
+  .showmobile {
+    display: inline;
   }
 }
