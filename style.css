@@ -1,4 +1,4 @@
-#jumbotron {
+#mainJumbo {
   background-position: right;
   background-color: #343a40;
   height: 30em;
@@ -7,8 +7,18 @@
   background-size: 50% 100%;
 }
 
+#jumbotron {
+  background-color: #343a40;
+  height: 30em;
+}
+
+.blank {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
 @media screen and (max-width: 800px) {
-  #jumbotron {
+  #mainJumbo {
     height: 30em;
     background-image: url('');
     text-align: center;
