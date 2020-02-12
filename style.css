@@ -2,6 +2,7 @@
   background-position: right;
   background-color: #343a40;
   height: 30em;
+  margin-bottom:5em;
 }
 
 #jumbotron {
@@ -27,6 +28,7 @@
     height: 30em;
     background-image: url('');
     text-align: center;
+    margin-bottom:5em;
   }
 
   div .row {
