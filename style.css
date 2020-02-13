@@ -55,6 +55,11 @@
   margin-top: 2em;
 }
 
+.nav-item {
+  font-size: 1.25em;
+  margin-top: 0.5em;
+}
+
 .teamCard {
   border: solid black 3px;
   border-radius: 15px;
@@ -71,6 +76,10 @@
   div .row {
     margin-left: .2em !important;
     margin-right: .2em !important;
+  }
+
+  .nav-item {
+    font-size: 1.25em;
   }
 
   .noshowmobile {
