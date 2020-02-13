@@ -46,6 +46,20 @@
   margin-bottom: 2.5em;
 }
 
+.gameInfo {
+  font-size: 1.5em;
+  padding-top: 2em;
+}
+
+.display-3 {
+  margin-top: 2em;
+}
+
+.teamCard {
+  border: solid black 3px;
+  border-radius: 15px;
+}
+
 @media screen and (max-width: 768px) {
   #mainJumbo {
     height: 30em;
