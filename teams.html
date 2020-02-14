@@ -51,10 +51,284 @@
       </div>
     </div>
   </div>
-
+<script src="./main.js"></script>
 <!--THE NAV GOES HERE-->
+<button class="button" onclick="switchGame('game1');">Overwatch</button>
+<button class="button" onclick="switchGame('game2');">League of Legends</button>
+<button class="button" onclick="switchGame('game3');">Rocket League</button>
+<button class="button" onclick="switchGame('game4');">Hearthstone</button>
+<button class="button" onclick="switchGame('game5');">Super Smash</button>
+<button class="button" onclick="switchGame('game6');">Forza 7</button>
+<button class="button" onclick="switchGame('game7');">CS:GO</button>
+<button class="button" onclick="switchGame('game8');">R6</button>
+<button class="button" onclick="switchGame('game9');">Fortnite</button>
 
-  <div id="game1" class="container bg-light teamCard show">
+  <div id="game1" class="container bg-light teamCard notActive">
+    <div class="noshowmobile row text-center mt-3">
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
+      <h1 class="mr-auto mt-4">Overwatch</h1>
+    </div>
+    <div class="showmobile row text-center mt-3 ml-auto mr-auto">
+      <div class="col-md-2">
+        <img style="width:3.5em;" class="mb-3" src='r6.png'>
+      </div>
+      <div class="col-md-10">
+        <h1 class="mt-4">Overwatch</div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center" id="TeamPics">
+        <h2>Xbox Blue Team</h2>
+        <img src="./5.jpg" class="img-fluid">
+        <p><i>Members (Left to Right): Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
+      </div>
+      <div class="col-md-6" id="GameInfo">
+        <h2 class="text-center">Game Info</h2>
+        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter, in which teams are pitted against each other to find or hide an objective, and either protect or disable the
+          objective. We offer teams for Xbox, PC, and PS4 but currently only have an Xbox and PC team.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2>Awards</h2>
+        <p>Top 8 in HSEL Fall Major</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Leagues</h2>
+        <p>HSEL</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="game2" class="container bg-light teamCard notActive">
+    <div class="noshowmobile row text-center mt-3">
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
+      <h1 class="mr-auto mt-4">League of Legends</h1>
+    </div>
+    <div class="showmobile row text-center mt-3 ml-auto mr-auto">
+      <div class="col-md-2">
+        <img style="width:3.5em;" class="mb-3" src='r6.png'>
+      </div>
+      <div class="col-md-10">
+        <h1 class="mt-4">League of Legends</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center" id="TeamPics">
+        <h2>Xbox Blue Team</h2>
+        <img src="./5.jpg" class="img-fluid">
+        <p><i>Members (Left to Right): Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
+      </div>
+      <div class="col-md-6" id="GameInfo">
+        <h2 class="text-center">Game Info</h2>
+        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter, in which teams are pitted against each other to find or hide an objective, and either protect or disable the
+          objective. We offer teams for Xbox, PC, and PS4 but currently only have an Xbox and PC team.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2>Awards</h2>
+        <p>Top 8 in HSEL Fall Major</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Leagues</h2>
+        <p>HSEL</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="game3" class="container bg-light teamCard notActive">
+    <div class="noshowmobile row text-center mt-3">
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
+      <h1 class="mr-auto mt-4">Rocket League</h1>
+    </div>
+    <div class="showmobile row text-center mt-3 ml-auto mr-auto">
+      <div class="col-md-2">
+        <img style="width:3.5em;" class="mb-3" src='r6.png'>
+      </div>
+      <div class="col-md-10">
+        <h1 class="mt-4">Rocket League</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center" id="TeamPics">
+        <h2>Xbox Blue Team</h2>
+        <img src="./5.jpg" class="img-fluid">
+        <p><i>Members (Left to Right): Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
+      </div>
+      <div class="col-md-6" id="GameInfo">
+        <h2 class="text-center">Game Info</h2>
+        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter, in which teams are pitted against each other to find or hide an objective, and either protect or disable the
+          objective. We offer teams for Xbox, PC, and PS4 but currently only have an Xbox and PC team.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2>Awards</h2>
+        <p>Top 8 in HSEL Fall Major</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Leagues</h2>
+        <p>HSEL</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="game4" class="container bg-light teamCard notActive">
+    <div class="noshowmobile row text-center mt-3">
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
+      <h1 class="mr-auto mt-4">Hearthstone</h1>
+    </div>
+    <div class="showmobile row text-center mt-3 ml-auto mr-auto">
+      <div class="col-md-2">
+        <img style="width:3.5em;" class="mb-3" src='r6.png'>
+      </div>
+      <div class="col-md-10">
+        <h1 class="mt-4">Hearthstone</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center" id="TeamPics">
+        <h2>Xbox Blue Team</h2>
+        <img src="./5.jpg" class="img-fluid">
+        <p><i>Members (Left to Right): Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
+      </div>
+      <div class="col-md-6" id="GameInfo">
+        <h2 class="text-center">Game Info</h2>
+        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter, in which teams are pitted against each other to find or hide an objective, and either protect or disable the
+          objective. We offer teams for Xbox, PC, and PS4 but currently only have an Xbox and PC team.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2>Awards</h2>
+        <p>Top 8 in HSEL Fall Major</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Leagues</h2>
+        <p>HSEL</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="game5" class="container bg-light teamCard notActive">
+    <div class="noshowmobile row text-center mt-3">
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
+      <h1 class="mr-auto mt-4">Super Smash Bros. Ultimate</h1>
+    </div>
+    <div class="showmobile row text-center mt-3 ml-auto mr-auto">
+      <div class="col-md-2">
+        <img style="width:3.5em;" class="mb-3" src='r6.png'>
+      </div>
+      <div class="col-md-10">
+        <h1 class="mt-4">Super Smash Bros. Ultimate</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center" id="TeamPics">
+        <h2>Xbox Blue Team</h2>
+        <img src="./5.jpg" class="img-fluid">
+        <p><i>Members (Left to Right): Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
+      </div>
+      <div class="col-md-6" id="GameInfo">
+        <h2 class="text-center">Game Info</h2>
+        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter, in which teams are pitted against each other to find or hide an objective, and either protect or disable the
+          objective. We offer teams for Xbox, PC, and PS4 but currently only have an Xbox and PC team.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2>Awards</h2>
+        <p>Top 8 in HSEL Fall Major</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Leagues</h2>
+        <p>HSEL</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="game6" class="container bg-light teamCard notActive">
+    <div class="noshowmobile row text-center mt-3">
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
+      <h1 class="mr-auto mt-4">Forza 7</h1>
+    </div>
+    <div class="showmobile row text-center mt-3 ml-auto mr-auto">
+      <div class="col-md-2">
+        <img style="width:3.5em;" class="mb-3" src='r6.png'>
+      </div>
+      <div class="col-md-10">
+        <h1 class="mt-4">Forza 7</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center" id="TeamPics">
+        <h2>Xbox Blue Team</h2>
+        <img src="./5.jpg" class="img-fluid">
+        <p><i>Members (Left to Right): Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
+      </div>
+      <div class="col-md-6" id="GameInfo">
+        <h2 class="text-center">Game Info</h2>
+        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter, in which teams are pitted against each other to find or hide an objective, and either protect or disable the
+          objective. We offer teams for Xbox, PC, and PS4 but currently only have an Xbox and PC team.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2>Awards</h2>
+        <p>Top 8 in HSEL Fall Major</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Leagues</h2>
+        <p>HSEL</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="game7" class="container bg-light teamCard notActive">
+    <div class="noshowmobile row text-center mt-3">
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
+      <h1 class="mr-auto mt-4">Counter Strike: Global Offensive</h1>
+    </div>
+    <div class="showmobile row text-center mt-3 ml-auto mr-auto">
+      <div class="col-md-2">
+        <img style="width:3.5em;" class="mb-3" src='r6.png'>
+      </div>
+      <div class="col-md-10">
+        <h1 class="mt-4">Counter Strike: Global Offensive</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center" id="TeamPics">
+        <h2>Xbox Blue Team</h2>
+        <img src="./5.jpg" class="img-fluid">
+        <p><i>Members (Left to Right): Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
+      </div>
+      <div class="col-md-6" id="GameInfo">
+        <h2 class="text-center">Game Info</h2>
+        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter, in which teams are pitted against each other to find or hide an objective, and either protect or disable the
+          objective. We offer teams for Xbox, PC, and PS4 but currently only have an Xbox and PC team.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2>Awards</h2>
+        <p>Top 8 in HSEL Fall Major</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Leagues</h2>
+        <p>HSEL</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="game8" class="container bg-light teamCard notActive">
     <div class="noshowmobile row text-center mt-3">
       <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
       <h1 class="mr-auto mt-4">Rainbow Six Siege</h1>
@@ -92,17 +366,17 @@
     </div>
   </div>
 
-  <div id="game2" class="container bg-light teamCard">
+  <div id="game9" class="container bg-light teamCard notActive">
     <div class="noshowmobile row text-center mt-3">
       <img style="width:3.5em;" class="mb-3 ml-auto mr-3" src='r6.png'>
-      <h1 class="mr-auto mt-4">NOT Rainbow Six Siege</h1>
+      <h1 class="mr-auto mt-4">Fortnite</h1>
     </div>
     <div class="showmobile row text-center mt-3 ml-auto mr-auto">
       <div class="col-md-2">
         <img style="width:3.5em;" class="mb-3" src='r6.png'>
       </div>
       <div class="col-md-10">
-        <h1 class="mt-4">NOT R6</h1>
+        <h1 class="mt-4">Fortnite</h1>
       </div>
     </div>
 
@@ -129,8 +403,6 @@
       </div>
     </div>
   </div>
-
-
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

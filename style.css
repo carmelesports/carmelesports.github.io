@@ -29,6 +29,14 @@
   -webkit-text-fill-color: transparent;
 }
 
+.activeYear {
+  display: block !important;
+}
+
+.notActive {
+  display: none !important;
+}
+
 .fa-twitter {
   color: #1c9deb;
 }
@@ -64,6 +72,7 @@
   border: solid black 3px;
   border-radius: 15px;
 }
+
 
 @media screen and (max-width: 768px) {
   #mainJumbo {
