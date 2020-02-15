@@ -18,6 +18,10 @@
   display: ;
 }
 
+.icon {
+  height: 2em;
+}
+
 .fab {
   font-size: 10em;
   margin-top: 0.2em;
@@ -72,7 +76,6 @@
   border: solid black 3px;
   border-radius: 15px;
 }
-
 
 @media screen and (max-width: 768px) {
   #mainJumbo {
