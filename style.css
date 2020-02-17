@@ -67,6 +67,19 @@
   margin-top: 2em;
 }
 
+.gallery {
+  margin: .8em 3.5em;
+}
+
+.gallery img {
+  transition: .5s ease-in-out;
+  padding: 1em;
+}
+
+/*.gallery img:hover {
+  filter: drop-shadow(10px 10px 5px);
+  transform: scale(1.1);
+}*/
 .nav-item {
   font-size: 1.25em;
   margin-top: 0.5em;
