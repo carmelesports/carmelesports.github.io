@@ -33,6 +33,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+.fa-mixer {
+  background: linear-gradient(90deg, rgb(4, 32, 77) 50%, rgba(31, 186, 237, 1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .activeYear {
   display: block !important;
 }
@@ -47,6 +53,7 @@
 
 .fa-twitch {
   color: #8d45f8;
+  padding-left: .1em;
 }
 
 .fa-youtube {
