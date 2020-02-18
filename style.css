@@ -18,6 +18,10 @@
   display: ;
 }
 
+.icon {
+  height: 2em !important;
+}
+
 .fab {
   font-size: 10em;
   margin-top: 0.2em;
@@ -25,6 +29,12 @@
 
 .fa-instagram {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-mixer {
+  background: linear-gradient(90deg, rgb(4, 32, 77) 50%, rgba(31, 186, 237, 1) 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -43,6 +53,7 @@
 
 .fa-twitch {
   color: #8d45f8;
+  padding-left: .1em;
 }
 
 .fa-youtube {
@@ -63,6 +74,19 @@
   margin-top: 2em;
 }
 
+.gallery {
+  margin: .8em 3.5em;
+}
+
+.gallery img {
+  transition: .5s ease-in-out;
+  padding: 1em;
+}
+
+/*.gallery img:hover {
+  filter: drop-shadow(10px 10px 5px);
+  transform: scale(1.1);
+}*/
 .nav-item {
   font-size: 1.25em;
   margin-top: 0.5em;
@@ -72,7 +96,6 @@
   border: solid black 3px;
   border-radius: 15px;
 }
-
 
 @media screen and (max-width: 768px) {
   #mainJumbo {
