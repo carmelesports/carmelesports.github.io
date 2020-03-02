@@ -1,14 +1,32 @@
 #mainJumbo {
   background-position: right;
-  background-color: #343a40;
+  background-color: black;
   height: 30em;
   margin-bottom: 5em;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.navbar {
+  border-bottom: 4px solid #fac805 !important;
 }
 
 #jumbotron {
   background-color: #343a40;
   height: 30em;
 }
+
+.nav-link {
+  color:white !important;
+}
+
+.active {
+  border-bottom:4px solid #fac805 !important;
+}
+
+
 
 .showmobile {
   display: none;
