@@ -120,6 +120,22 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    border-bottom: 4px solid #fac805 !important;
+  }
+  .nav-link {
+    color:rgba(255,255,255,.5) !important;
+  }
+
+  .active {
+    border-bottom:none !important;
+
+  }
+
+  .active .nav-link {
+    color:white !important;
+  }
+
   #mainJumbo {
     height: 30em;
     background-image: url('');
