@@ -9,8 +9,12 @@
   background-color: black !important;
 }
 
-.navbar {
+.borderBot {
   border-bottom: 4px solid #fac805 !important;
+}
+
+.float-bottom {
+  position: absolute !important;
 }
 
 #jumbotron {
@@ -19,14 +23,12 @@
 }
 
 .nav-link {
-  color:white !important;
+  color: white !important;
 }
 
 .active {
-  border-bottom:4px solid #fac805 !important;
+  border-bottom: 4px solid #fac805 !important;
 }
-
-
 
 .showmobile {
   display: none;
@@ -119,54 +121,59 @@
   border-radius: 15px;
 }
 
-    .gallery {
--webkit-column-count: 3;
--moz-column-count: 3;
-column-count: 3;
--webkit-column-width: 33%;
--moz-column-width: 33%;
-column-width: 33%; }
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+
 .gallery .pics {
--webkit-transition: all 350ms ease;
-transition: all 350ms ease; }
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
 .gallery .animation {
--webkit-transform: scale(1);
--ms-transform: scale(1);
-transform: scale(1); }
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
 
 @media (max-width: 450px) {
-.gallery {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
--webkit-column-width: 100%;
--moz-column-width: 100%;
-column-width: 100%;
-}
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
 }
 
 @media (max-width: 400px) {
-.btn.filter {
-padding-left: 1.1rem;
-padding-right: 1.1rem;
-}
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .navbar {
     border-bottom: 4px solid #fac805 !important;
   }
+
   .nav-link {
-    color:rgba(255,255,255,.5) !important;
+    color: rgba(255, 255, 255, .5) !important;
   }
 
   .active {
-    border-bottom:none !important;
-
+    border-bottom: none !important;
   }
 
   .active .nav-link {
-    color:white !important;
+    color: white !important;
   }
 
   #mainJumbo {
