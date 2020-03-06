@@ -17,6 +17,9 @@ var header = document.getElementById("theDiv");
 
 // Get the offset position of the navbar
 var sticky = header.offsetTop + .5 * header.offsetTop;
+if (header.classList.contains("home")) {
+  sticky = header.offsetTop;
+}
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {

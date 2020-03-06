@@ -1,7 +1,12 @@
+html {
+  overflow-x:hidden;
+}
+
+
 #mainJumbo {
   background-position: right;
   background-color: black;
-  height: 30em;
+  height: 15em;
   margin-bottom: 5em;
 }
 
@@ -26,7 +31,7 @@
   color: white !important;
 }
 
-.active {
+nav .active {
   border-bottom: 4px solid #fac805 !important;
 }
 
@@ -95,7 +100,7 @@
 }
 
 .display-3 {
-  margin-top: 2em;
+  margin-top:1em;
 }
 
 .gallery {
