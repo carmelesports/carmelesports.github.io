@@ -1,13 +1,11 @@
 html {
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
-
 
 #mainJumbo {
   background-position: right;
   background-color: black;
   height: 15em;
-  margin-bottom: 5em;
 }
 
 .bg-dark {
@@ -100,7 +98,7 @@ nav .active {
 }
 
 .display-3 {
-  margin-top:1em;
+  margin-top: 1em;
 }
 
 .gallery {
