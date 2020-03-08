@@ -12,6 +12,10 @@ html {
   background-color: black !important;
 }
 
+.matchCard {
+  border: 4px solid blue !important;
+}
+
 .borderBot {
   border-bottom: 4px solid #fac805 !important;
 }
