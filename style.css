@@ -6,7 +6,7 @@ html {
   background-position: right;
   background-color: black;
   height: 15em;
-  margin-bottom: 30em;
+  margin-bottom: 10em;
 }
 
 .bg-dark {
@@ -15,6 +15,8 @@ html {
 
 .matchCard {
   border: 4px solid blue !important;
+  background-color: #fac805;
+  text-align:center !important;
 }
 
 .borderBot {
