@@ -26,11 +26,3 @@ function myFunction() {
     document.getElementById("nav").classList.remove("borderBot");
   }
 }
-
-document.onload = function() {
-  setTimeout(function() {
-    document.getElementById("HSGold").innerHTML = HSGold;
-    console.log(HSGold);
-  }, 5000)
-
-};
