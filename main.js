@@ -27,7 +27,7 @@ function myFunction() {
   }
 }
 
-body.onload = function() {
+document.onload = function() {
   document.getElementById("HSGold").innerHTML = HSGold;
   console.log(HSGold);
 };
