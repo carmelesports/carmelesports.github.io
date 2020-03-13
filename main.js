@@ -28,6 +28,9 @@ function myFunction() {
 }
 
 document.onload = function() {
-  document.getElementById("HSGold").innerHTML = HSGold;
-  console.log(HSGold);
+  setTimeout(function() {
+    document.getElementById("HSGold").innerHTML = HSGold;
+    console.log(HSGold);
+  }, 5000)
+
 };
