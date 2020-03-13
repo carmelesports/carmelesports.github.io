@@ -64,7 +64,9 @@
 
   <div class="container-fluid">
     <script src="https://monsterico.github.io/esportsscores.js">
-      document.getElementById("HSGold").innerHTML = HSGold;
+      body.addEventListener("load", function() {
+        document.getElementById("HSGold").innerHTML = HSGold;
+      });
     </script>
     <div class="row">
       <div class="col-lg-1">
