@@ -63,6 +63,23 @@ html {
   height: 30em;
 }
 
+.bannerLink {
+  color: inherit;
+}
+
+.bannerLink:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#resultsBanner {
+  transition: all .5s ease-in-out;
+}
+
+#resultsBanner:hover {
+  transform: scale(1.05);
+}
+
 .nav-link {
   color: white !important;
 }
