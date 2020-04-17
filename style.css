@@ -14,6 +14,11 @@ html {
   margin-bottom: .5em;
 }
 
+.teamPic {
+  width: 328px;
+  height: 328px;
+}
+
 .newsStory {
   padding: 1em;
   margin-bottom: 1em;
@@ -48,6 +53,8 @@ html {
   border: 4px solid blue !important;
   background-color: #fac805;
   text-align: center !important;
+  margin-bottom: 6em !important;
+  margin: 8px;
 }
 
 .borderBot {
