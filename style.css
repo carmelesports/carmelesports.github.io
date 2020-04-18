@@ -264,4 +264,9 @@ nav .active {
   .showmobile {
     display: inline;
   }
+
+  .matchCard img {
+    width: 55px !important;
+    height: 55px !important;
+  }
 }
