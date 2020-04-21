@@ -9,6 +9,10 @@ html {
   margin-bottom: 10em;
 }
 
+.newsText {
+  font-size: 1.5em;
+}
+
 .newsStory img {
   border-radius: 10px;
   margin-bottom: .5em;
