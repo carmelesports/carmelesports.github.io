@@ -112,6 +112,6 @@
 
 // Function that is invoked after the konami code has been entered
 function konamiIsDetected() {
-  alert("I am working on something special for this, but for now you get to go to The Test Game. Have Fun!");
+  alert("Congrats, you found the secret! I am working on something special for this, but for now you get to go to The Test Game. This is defintely not shameless self-promotion. Have Fun!");
   window.open("https://randomstuff.games/testGame/test.php", "_blank");
 }
