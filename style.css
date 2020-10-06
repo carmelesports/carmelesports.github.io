@@ -274,3 +274,16 @@ nav .active {
     height: 55px !important;
   }
 }
+
+/*RESULTS CSS*/
+.team {
+  word-wrap: normal;
+  text-align: center !important;
+  font-size: 1.25em;
+}
+
+.score {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
