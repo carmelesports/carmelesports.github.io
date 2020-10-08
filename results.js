@@ -1,4 +1,4 @@
-$.getJSON("../ScoreBot/results.json", function(data) {
+$.getJSON("http://scores.carmelesports.com", function(data) {
   console.log("retrieving scores");
   $.each(data, function(i, score) {
     var game = score.game;
@@ -36,13 +36,13 @@ $.getJSON("../ScoreBot/results.json", function(data) {
 function gameInterpret(game) {
   var ret = null;
   switch (game) {
-    case "Overwatch":
+    case "OW":
       ret = "Overwatch";
       break;
     case "R6PC":
       ret = "R6 PC";
       break;
-    case "Hearthstone":
+    case "HS":
       ret = "Hearthstone";
       break;
     case "CSGO":
@@ -63,7 +63,7 @@ function gameInterpret(game) {
     case "CoD":
       ret = "Call of Duty";
       break;
-    case "Valorant":
+    case "Val":
       ret = "Valorant";
       break;
     case "R6X1":
@@ -71,6 +71,15 @@ function gameInterpret(game) {
       break;
     case "Apex":
       ret = "Apex Legends";
+      break;
+    case "Overwatch":
+      ret = "Overwatch";
+      break;
+    case "Hearthstone":
+      ret = "Hearthstone";
+      break;
+    case "Valorant":
+      ret = "Valorant";
       break;
   }
   return ret;
