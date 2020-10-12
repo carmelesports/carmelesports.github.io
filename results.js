@@ -4,6 +4,7 @@ $.getJSON("https://cors-anywhere.herokuapp.com/https://tinyurl.com/y3ocsch8", fu
     var game = score.game;
     var gameInt = gameInterpret(game);
     var team1 = score.team1 + " " + gameInt;
+    var team1 = team1.charAt(0).toUpperCase() + team1.slice(1)
     var team2 = score.team2;
     var team1Score = score.team1Score;
     var team2Score = score.team2Score;
