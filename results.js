@@ -1,19 +1,23 @@
-$.getJSON("http://98.220.144.25:2000/", function(data) {
+$.getJSON("https://cors-anywhere.herokuapp.com/scores.carmelesports.com", function(data) {
   console.log("retrieving scores");
   $.each(data, function(i, score) {
-    var game = score.game;
-    var gameInt = gameInterpret(game);
-    var team1 = score.team1 + " " + gameInt;
-    var team1 = team1.charAt(0).toUpperCase() + team1.slice(1)
-    var team2 = score.team2;
-    var team1Score = score.team1Score;
-    var team2Score = score.team2Score;
     var date = score.date;
     var now = moment();
     var input = moment(date);
+
     var isThisWeek = (now.isoWeek() == input.isoWeek())
-    var gameDiv = document.getElementById(game + "Div");
     if (isThisWeek) {
+      var game = score.game;
+      var gameInt = gameInterpret(game);
+      var team1 = score.team1 + " " + gameInt;
+      var team1 = team1.charAt(0).toUpperCase() + team1.slice(1)
+      var team2 = score.team2;
+      var team1Score = score.team1Score;
+      var team2Score = score.team2Score;
+
+      var gameDiv = document.getElementById(divInterpret(game) + "Div");
+      console.log(gameDiv);
+      console.log(i);
       gameDiv.innerHTML += ('<div class="col-md-5 matchCard">\
         <br>\
         <div class="row">\
@@ -33,6 +37,31 @@ $.getJSON("http://98.220.144.25:2000/", function(data) {
     }
   });
 });
+
+function divInterpret(game) {
+  var ret = null;
+  switch (game) {
+    case "OW":
+      ret = "Overwatch";
+      break;
+    case "HS":
+      ret = "Hearthstone";
+      break;
+    case "CSGO":
+      ret = "CSGO";
+      break;
+    case "LoL":
+      ret = "LoL";
+      break;
+    case "Val":
+      ret = "Valorant";
+      break;
+    default:
+      ret = game;
+      break;
+  }
+  return ret;
+}
 
 function gameInterpret(game) {
   var ret = null;
