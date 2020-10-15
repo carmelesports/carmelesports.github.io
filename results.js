@@ -1,4 +1,4 @@
-$.getJSON("https://cors-anywhere.herokuapp.com/https://tinyurl.com/y3ocsch8", function(data) {
+$.getJSON("https://tinyurl.com/y3ocsch8", function(data) {
   console.log("retrieving scores");
   $.each(data, function(i, score) {
     var game = score.game;
