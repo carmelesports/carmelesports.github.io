@@ -1,4 +1,4 @@
-$.getJSON("https://tinyurl.com/y3ocsch8", function(data) {
+$.getJSON("http://98.220.144.25:2000/", function(data) {
   console.log("retrieving scores");
   $.each(data, function(i, score) {
     var game = score.game;
