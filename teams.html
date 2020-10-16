@@ -28,43 +28,7 @@
 </head>
 
 <body>
-  <nav id="nav" class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-    <a class="navbar-brand" href="./index.html">
-      <img height="50" width="150" src="./bannerLogo2.png">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./teams.html">Teams</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./watch.html">Watch</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./results.html">Results</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./media.html">Media</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./sponsors.html">Sponsors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div id="navDiv" class="sticky-top"></div>
 
   <div id="mainJumbo" class="container-fluid">
     <div class="row">
@@ -119,14 +83,19 @@
         <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game8');">Rainbow Six</button>
       </div>
       <div>
-        <img class="icon mb-1" style="margin-left: 2.5em;" src="./icons/fn.png">
+        <img class="icon mb-1" style="margin-left: 2.5em;" src="./icons/cod.png">
         <br>
-        <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game9');">Fortnite</button>
+        <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game9');">Call of Duty</button>
       </div>
       <div>
         <img class="icon mb-1" style="margin-left: 3.75em;" src="./icons/apex.png">
         <br>
         <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game10');">Apex Legends</button>
+      </div>
+      <div>
+        <img class="icon mb-1" style="margin-left: 2.75em;" src="./icons/valorant.png">
+        <br>
+        <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game11');">Valorant</button>
       </div>
     </div>
     <div class="row mb-3 showmobile">
@@ -139,8 +108,9 @@
         <option value="game6">Forza 7</option>
         <option value="game7">CS:GO</option>
         <option value="game8">Rainbow Six Siege</option>
-        <option value="game9">Fortnite</option>
+        <option value="game9">Call of Duty</option>
         <option value="game10">Apex Legends</option>
+        <option value="game11">Valorant</option>
       </select>
     </div>
   </div>
@@ -166,13 +136,18 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./images/overwatch.png" class="img-fluid">
-              <p><i>Members: Josh Pereira, James Lenos, Kate Reister, Mark Masuoka, Jacob Olekszyk, Tyler Gies, Tamir Soen-Keren, Justin Masters</i></p>
+              <p><i>Members: Tyler Gies, Finn Mellor, James Lenos (Captain), Aaron Hamm, Kate Reister, Aki Yamazaki</i></p>
               <br>
             </div>
             <div class="carousel-item">
               <h2>Blue Team</h2>
               <img src="./images/overwatch.png" class="img-fluid">
-              <p><i>Members: Matthew Gardner, Akinori Yamazaki, Damon Fiocca, Aaron Hamm, Andrew Hillsman, Ethan Liu, David Dillon, Nolan Thorpe, Miiles Andrews</i></p>
+              <p><i>Members: Andrew Hillsman, Aiden Wilson, Damon Fiocca, Nolan Thorpe (Captain), Matthew Gardner (Captain), JD Slivinski, Jack Ziegle, Ethan Liu</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>White Team</h2>
+              <img src="./images/overwatch.png" class="img-fluid">
+              <p><i>Members: Charles Yuan, Oliver Zhu (Captain), Braelen Price, Richard Zhang, Elizabeth Hart, Lucas Moore, Miles Dunbar</i></p>
             </div>
           </div>
         </div>
@@ -190,13 +165,20 @@
       <div class="col-md-6 text-center">
         <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div id="g" class="carousel-item active">
               <h2>Awards</h2>
               <p>1st Place IHSEN Season 0</p>
+              <p>3rd Place IUPUI Lan 2019</p>
             </div>
-            <div class="carousel-item">
-              <h2>Awards</h2>
-              <p>Top 4 IHSEN Season 0</p>
+            <div id="b" class="carousel-item">
+              <h2></h2>
+              <p></p>
+              <p></p>
+            </div>
+            <div id="w" class="carousel-item">
+              <h2></h2>
+              <p></p>
+              <p></p>
             </div>
           </div>
         </div>
@@ -204,7 +186,8 @@
 
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
-        <p>HSEL</p>
+        <p>NASEF</p>
+        <p>PlayVS</p>
       </div>
 
     </div>
@@ -231,12 +214,17 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./icons/league.png" class="teamPic">
-              <p><i>Members: Tamir Soen-Keren, Allen Lin, Nyle Nasir, James Lenos, Marvin Fan, Michael Wang</i></p>
+              <p><i>Members: Zishuo Wang, James Lenos, Nolan Thorpe, Osa Osarenkhoe, Nyle Nasir (Captain), Evan Wodock, Marvin Fan</i></p>
             </div>
             <div class="carousel-item">
               <h2>Blue Team</h2>
               <img src="./icons/league.png" class="teamPic">
-              <p><i>Members: Alex Bogue, Dylan Boyer, Ethan Nie, Michael Zhang, Nolan Thorpe, Osa Osarenkhoe, Spencer Waybright</i></p>
+              <p><i>Members: Michael Zang, Drew Shea, Zachary Fan, Adrien Qi (Captain), Dylan Boyer, Nicolas Zimmowitch</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>White Team</h2>
+              <img src="./icons/league.png" class="teamPic">
+              <p><i>Members: Owen Siders, Jacob Gold (Captain), Jacob Gaerte, Simon Weddle, Sean Gao</i></p>
             </div>
           </div>
         </div>
@@ -252,12 +240,17 @@
       <div class="col-md-6 text-center">
         <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div id="g" class="carousel-item active">
               <h2>Awards</h2>
               <p>1st Place IHSEN Season 0</p>
               <p>3rd Place IUPUI Lan 2019</p>
             </div>
-            <div class="carousel-item">
+            <div id="b" class="carousel-item">
+              <h2></h2>
+              <p></p>
+              <p></p>
+            </div>
+            <div id="w" class="carousel-item">
               <h2></h2>
               <p></p>
               <p></p>
@@ -268,8 +261,7 @@
 
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
-        <p>IHSEN</p>
-        <p>NASEF</p>
+        <p>PlayVS</p>
       </div>
     </div>
   </div>
@@ -295,12 +287,22 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./images/rl.jpg" class="img-fluid">
-              <p><i>Members: Nicolas Zimmowitch, Jackson Barnes, Evan Wodock, Justin Masters, Matthew Lein</i></p>
+              <p><i>Members: Nicolas Zimmowitch (Captain), Jackson Barnes, Evan Wodock, Michael Ward, Dylan Boyer</i></p>
             </div>
             <div class="carousel-item">
               <h2>Blue Team</h2>
               <img src="./images/rl2.jpg" class="img-fluid">
-              <p><i>Members: Spencer Daymude, Chris Heck, Sam Quigley, Aidan Wilson, Yuri Jayo</i></p>
+              <p><i>Members: Sam Quigley (Captain), Brayden Burke, Aiden Wilson, Chris Heck, Yuri Jayo</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>White Team</h2>
+              <img src="./images/rl.jpg" class="img-fluid">
+              <p><i>Members: Spencer Daymude (Captain), Josh Olekszyk, John Van Horn, Ryan Poziviak</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>Black Team</h2>
+              <img src="./images/rl2.jpg" class="img-fluid">
+              <p><i>Members: Conner Rice, Daniel Friedman (Captain), Caden Clawson, Sam Schuster, Thomas Fels</i></p>
             </div>
           </div>
         </div>
@@ -319,14 +321,28 @@
       <div class="col-md-6 text-center">
         <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div id="g" class="carousel-item active">
               <h2>Awards</h2>
               <p>1st Place IHSEN Season 0</p>
               <p>Top 4 Fall 2018 HSEL</p>
               <p>1st Place in Mount St. Joseph University Invitational</p>
               <p>1st Place in 2v2 Rocket League Lan hosted by Sharp</p>
             </div>
-            <div class="carousel-item">
+            <div id="blue" class="carousel-item">
+              <h2></h2>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div id="w" class="carousel-item">
+              <h2></h2>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div id="black" class="carousel-item">
               <h2></h2>
               <p></p>
               <p></p>
@@ -340,6 +356,9 @@
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
         <p>IHSEN</p>
+        <p>PlayVS</p>
+        <p>IGL</p>
+        <p>NASEF</p>
       </div>
     </div>
   </div>
@@ -365,12 +384,7 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./icons/hs.png" class="teamPic">
-              <p><i>Members: Austin Prader, Ryan Fiocca</i></p>
-            </div>
-            <div class="carousel-item">
-              <h2>Blue Team</h2>
-              <img src="./icons/hs.png" class="teamPic">
-              <p><i>Members: Ryan Melenchuk, Oren Jensen</i></p>
+              <p><i>Members: Oren Jensen (Captain), Nolan Thorpe</i></p>
             </div>
           </div>
         </div>
@@ -386,13 +400,9 @@
       <div class="col-md-6 text-center">
         <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div id="g" class="carousel-item active">
               <h2>Awards</h2>
               <p>2nd Place IHSEN Season 0</p>
-            </div>
-            <div class="carousel-item">
-              <h2>Awards</h2>
-              <p>3rd Place IHSEN Season 0</p>
             </div>
           </div>
         </div>
@@ -425,12 +435,12 @@
             <div class="carousel-item active">
               <h2>1v1</h2>
               <img src="./icons/smash.png" class="teamPic">
-              <p><i>Members: Blake Wehlage, Clay Stults, Daphne Peterson, Drew Gerke, Jake Kohl, Max Ruderman, Sam Dreher, Sam Geyer, Sebastian Herrera, William Bennett</i></p>
+              <p><i>Members: Blake Wehlage, Elliott Rudy, William Bennett (Captain), Daphne Peterson, Jack Sibbitt (Captain), Jake Kohl, Jacob Moore, Max Ruderman, Sam Dreher, Clay Stults</i></p>
             </div>
             <div class="carousel-item">
               <h2>2v2</h2>
               <img src="./icons/smash.png" class="teamPic">
-              <p><i>Members: Bishy Habib, Caige Rogers, DeWayne Holman, Drew Shea, Emerson Waldo, Gavin Mihalus, Jack Sibbitt, Jack Ziegele, Jacob Moore, Jacob Renay-Lopes, Logan Floyd, Mitchell Urban</i></p>
+              <p><i>Members: Blake Wehlage, Jack Sibbitt (Captain), Elliott Rudy, Max Ruderman, William Bennett (Captain), Daphne Peterson, Sam Dreher, Sebastian Herrera, Clay Stults, Grayson Buck, Gaby Delgado, Zach Peterson</i></p>
             </div>
           </div>
         </div>
@@ -444,12 +454,25 @@
     </div>
     <div class="row">
       <div class="col-md-6 text-center">
-        <h2></h2>
-        <p></p>
+        <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
+          <div id="1v1" class="carousel-inner">
+            <div id="g" class="carousel-item active">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+          <div id="2v2" class="carousel-inner">
+            <div id="g" class="carousel-item active">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
         <p>IHSEN</p>
+        <p>IGL<p>
       </div>
     </div>
   </div>
@@ -475,13 +498,8 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./images/forza.png" class="img-fluid">
-              <p><i>Members: Brandon Hardin, Thomas Johnson, Luke Rosenthall</i></p>
+              <p><i>Members: Thomas Johnson, Luke Rosenthall (Captain)</i></p>
             </div>
-            <!--<div class="carousel-item">
-              <h2>Xbox GOLD Team</h2>
-              <img src="./5.jpg" class="teamPic">
-              <p><i>Members: Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
-            </div>-->
           </div>
         </div>
       </div>
@@ -524,12 +542,12 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./images/csgo.jpg" class="img-fluid">
-              <p><i>Members: Justin Masters, Ryan Lee, Mark Masuoka, Carter Novak, Bryce Cheetham</i></p>
+              <p><i>Members: Bryce Cheetham (Captain), Adrien Qi, Michael Zhang, Ben Lin, Chris Custer, Romaric Cansino</i></p>
             </div>
             <div class="carousel-item">
               <h2>Blue Team</h2>
               <img src="./images/csgo.jpg" class="img-fluid">
-              <p><i>Members: Adrien Qi, Sheng Xiao Lin, Michael Zhang, Harrison Ludwig, Brandon Nguyen</i></p>
+              <p><i>Members: Cole Bayer (Captain), Dimitri Paikos, Glen Cheng, Billy Qian, Michael Morfas, Matthew Dimond</i></p>
             </div>
           </div>
         </div>
@@ -581,19 +599,19 @@
         <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <h2>Gold Team</h2>
+              <h2>Gold Team (PC)</h2>
               <img src="./images/r6.jpg" class="img-fluid">
-              <p><i>Members: Devon Singh, Thomas Johnson, Josh Baxter, Brandon Hardin, Ryan Lee</i></p>
+              <p><i>Members: Chase Hutchison, Nicholas Savitch, Danny Moss (Captain), Matthew Dimond, Oliver Zhu</i></p>
             </div>
             <div class="carousel-item">
-              <h2>Xbox Blue Team</h2>
+              <h2>Blue Team (PC)</h2>
               <img src="./images/r6.jpg" class="img-fluid">
-              <p><i>Members: Spencer Daymude, Sam Quigley, Alex Stojkovic, Nathan Ashley, Harrison Ludwig, Zach Streitenberger</i></p>
+              <p><i>Members: Richard Zhang (Captain), Dhiraj Bobba, Charlie Weaver, Charles Yuan, Brandon Hardin, Thomas Johnson</i></p>
             </div>
             <div class="carousel-item">
-              <h2>Xbox Gold Team</h2>
+              <h2>Gold Team (XBOX)</h2>
               <img src="./images/r6.jpg" class="img-fluid">
-              <p><i>Members: Krister Von Bargen, Zhi Li, Gabe Brual, Julien Wallace, Paul Mckuhen</i></p>
+              <p><i>Members: Aaron Hamm, Sam Quigley, Nathan Ashley, Spencer Daymude (Captain), Zach Streitenberger, Kevin Russo, Jeulien Wallace, Oliver Mason</i></p>
             </div>
           </div>
         </div>
@@ -633,15 +651,15 @@
 
   <div id="game9" class="container bg-light teamCard notActive">
     <div class="noshowmobile row text-center mt-3">
-      <img style="width:3.5em;" class="mb-3 ml-auto mr-3 mt-2" src='./icons/fn.png'>
-      <h1 class="mr-auto mt-4">Fortnite</h1>
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3 mt-2" src='./icons/cod.png'>
+      <h1 class="mr-auto mt-4">Call of Duty</h1>
     </div>
     <div class="showmobile row text-center mt-3 ml-auto mr-auto">
       <div class="col-md-2">
-        <img style="width:3.5em;" class="mb-3" src='./icons/fn.png'>
+        <img style="width:3.5em;" class="mb-3" src='./icons/cod.png'>
       </div>
       <div class="col-md-10">
-        <h1 class="mt-4">Fortnite</h1>
+        <h1 class="mt-4">Call of Duty</h1>
       </div>
     </div>
 
@@ -650,9 +668,9 @@
         <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <h2>Duos</h2>
-              <img src="./icons/fn.png" class="teamPic">
-              <p><i>Members: Deaglan Anderson, Brandon Hardin</i></p>
+              <h2>Modern Warfare: Gunfight</h2>
+              <img src="./icons/cod.png" class="teamPic">
+              <p><i>Members: Davi Dutra, Nikolas Koniaris, Keshuan Grasty, Jacob Fletcher, Danny Moss, Cole Palermo</i></p>
             </div>
           </div>
         </div>
@@ -660,9 +678,7 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">Fortnite is a 100 person Battle Royale game in which the last person standing is the winner.
-          The game involves multiple people trying to defeat each other using different weapons and materials around the
-          map.</p>
+        <p class="text-justify-left gameInfo">NEED COD DESCRIPTION</p>
       </div>
     </div>
     <div class="row">
@@ -698,7 +714,7 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./icons/apex.png" class="teamPic">
-              <p><i>Members: Evan Dawson, Danteá Cannon, Gabe Brual</i></p>
+              <p><i>Members: Oliver Mason, Daniel Friedman</i></p>
             </div>
           </div>
         </div>
@@ -720,13 +736,73 @@
       </div>
     </div>
   </div>
+
+  <div id="game11" class="container bg-light teamCard notActive">
+    <div class="noshowmobile row text-center mt-3">
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3 mt-3" src='./icons/valorant.png'>
+      <h1 class="mr-auto mt-4">Valorant</h1>
+    </div>
+    <div class="showmobile row text-center mt-3 ml-auto mr-auto">
+      <div class="col-md-2">
+        <img style="width:3.5em;" class="mb-3" src='./icons/valorant.png'>
+      </div>
+      <div class="col-md-10">
+        <h1 class="mt-4">Valorant</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center" id="TeamPics">
+        <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2>Gold Team</h2>
+              <img src="./icons/valorant.png" class="teamPic">
+              <p><i>Members: Bryce Cheetham (Captain), Adrien Qi, Michael Zhang, John Sormillon, Srikrishna Ganeshan</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>Gold Team</h2>
+              <img src="./icons/valorant.png" class="teamPic">
+              <p><i>Members: Hamza Raddad, Ryan Zhang, Richard Zhang, Sam Yates, Cole Bayer (Captain), Harrison Ludwig, Bransen Brown</i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6" id="GameInfo">
+        <h2 class="text-center">Game Info</h2>
+        <p class="text-justify-left gameInfo">NEED VALORANT DESCRIPTION</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
+          <div class="carousel-inner">
+            <div id="g" class="carousel-item active">
+              <h2></h2>
+              <p></p>
+            </div>
+            <div id="b" class="carousel-item">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Leagues</h2>
+        <p>HSEL</p>
+      </div>
+    </div>
+  </div>
+
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="./main.js"></script>
+  <script src="./main.js?id=teams" id="nav-bar"></script>
 
 </body>
 

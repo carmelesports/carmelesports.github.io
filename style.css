@@ -99,6 +99,32 @@ nav .active {
   border-bottom: 4px solid #fac805 !important;
 }
 
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-item:hover {
+  background-color: black;
+}
+
+.dropdown-item {
+  background-color: black !important;
+}
+
+.dropdown-menu {
+  margin-top: 0;
+  background-color: black;
+  border: 1px solid #fac805;
+}
+
+.show {
+  display: block;
+}
+
 .showmobile {
   display: none;
 }
