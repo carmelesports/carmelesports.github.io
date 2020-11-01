@@ -107,15 +107,15 @@ nav .active {
   transform: translateY(3px);
 }
 
-.dropdown-item:hover {
+.nav-item .dropdown-item:hover {
   background-color: black;
 }
 
-.dropdown-item {
+.nav-item .dropdown-item {
   background-color: black !important;
 }
 
-.dropdown-menu {
+.nav-item .dropdown-menu {
   margin-top: 0;
   background-color: black;
   border: 1px solid #fac805;
