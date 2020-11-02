@@ -1,6 +1,9 @@
+var numScores = 0;
+
 function updateResults() {
   console.log("request updsate");
   $.getJSON("https://cors-anywhere.herokuapp.com/scores.carmelesports.com", function(data) {
+    numScores = 0;
     console.log("retrieving scores");
     emptyDivs();
     $.each(data, function(i, score) {
@@ -11,7 +14,7 @@ function updateResults() {
       var gameDiv = document.getElementById(divInterpret(game) + "Div");
       var isThisWeek = (now.isoWeek() == input.isoWeek())
       if (isThisWeek) {
-
+        numScores++;
         var gameInt = gameInterpret(game);
         var team1 = score.team1 + " " + gameInt;
         var team1 = team1.charAt(0).toUpperCase() + team1.slice(1)
@@ -38,6 +41,16 @@ function updateResults() {
       </div>');
       }
     });
+    if (numScores == 0) {
+      document.getElementById("allScores").style = "display:none;";
+      document.getElementById("noScores").style = "display:block;";
+      document.getElementById("noScoreImg").scrollIntoView({
+        behavior: 'smooth'
+      });
+    } else {
+      document.getElementById("noScores").style = "display:none;";
+      document.getElementById("allScores").style = "display:block;";
+    }
   });
 }
 
