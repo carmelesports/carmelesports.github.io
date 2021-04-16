@@ -2,7 +2,7 @@ var numScores = 0;
 
 function updateResults() {
   console.log("request updsate");
-  $.getJSON("localhost:2000/", function(data) {
+  $.getJSON("~/test.json", function(data) {
     numScores = 0;
     console.log("retrieving scores");
     emptyDivs();
