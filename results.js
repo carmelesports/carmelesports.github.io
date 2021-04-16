@@ -2,7 +2,7 @@ var numScores = 0;
 
 function updateResults() {
   console.log("request updsate");
-  $.getJSON("./results.json", function(data) {
+  $.getJSON("./ScoreBot/results.json", function(data) {
     numScores = 0;
     console.log("retrieving scores");
     emptyDivs();
