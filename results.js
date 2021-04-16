@@ -2,7 +2,7 @@ var numScores = 0;
 
 function updateResults() {
   console.log("request updsate");
-  $.getJSON("https://cors-anywhere.herokuapp.com/scores.carmelesports.com", function(data) {
+  $.getJSON("localhost:2000/", function(data) {
     numScores = 0;
     console.log("retrieving scores");
     emptyDivs();
