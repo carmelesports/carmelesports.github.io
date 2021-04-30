@@ -145,4 +145,3 @@ function emptyDivs() {
   document.getElementById("ValorantDiv").innerHTML = "";
   document.getElementById("ApexDiv").innerHTML = "";
 }
-updateResults();
