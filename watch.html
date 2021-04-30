@@ -45,14 +45,17 @@
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10 embed-responsive embed-responsive-16by9">
+        <!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed"></div>
+
+        <!-- Load the Twitch embed script -->
         <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-        <div class="embed-responsive-item" id="SamplePlayerDivID"></div>
+
+        <!-- Create a Twitch.Player object. This will render within the placeholder div -->
         <script type="text/javascript">
-          var options = {
-            channel: "Carmel_eSports"
-          };
-          var player = new Twitch.Player("SamplePlayerDivID", options);
-          player.setVolume(0.5);
+          new Twitch.Player("twitch-embed", {
+            channel: "carmelesports"
+          });
         </script>
       </div>
       <div class="col-md-1"></div>

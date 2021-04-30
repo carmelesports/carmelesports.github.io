@@ -51,7 +51,7 @@ function updateResults() {
       document.getElementById("noScores").style = "display:none;";
       document.getElementById("allScores").style = "display:block;";
     }
-  });
+  }).fail(function() {document.getElementById("allScores").innerHTML = "Something went wrong."});
 }
 
 function divInterpret(game) {

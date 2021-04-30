@@ -20,7 +20,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="shortcut icon" href="./favicon.ico" />
   <link rel="stylesheet" href="./style.css">
   <title>Carmel Esports | Teams</title>
@@ -58,9 +59,9 @@
         <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game3');">Rocket League</button>
       </div>
       <div>
-        <img class="icon mb-1" style="margin-left: 3.5em;" src="./gameLogos/hs.png">
+        <img class="icon mb-1" style="margin-left: 2em;" src="./gameLogos/chess.png">
         <br>
-        <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game4');">Hearthstone</button>
+        <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game4');">Chess</button>
       </div>
       <div>
         <img class="icon mb-1" style="margin-left: 4.75em;" src="./gameLogos/smash.png">
@@ -75,14 +76,15 @@
       <div>
         <img class="icon mb-1" style="margin-left: 2em;" src="./gameLogos/csgo.png">
         <br>
-        <button type="button" class="btn btn-dark mb-5 ml-3" style="width:6.5em;" onclick="switchGame('game7');">CS:GO</button>
+        <button type="button" class="btn btn-dark mb-5 ml-3" style="width:6.5em;"
+          onclick="switchGame('game7');">CS:GO</button>
       </div>
       <div>
         <img class="icon mb-1" style="margin-left: 3.75em;" src="./gameLogos/r6.png">
         <br>
         <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game8');">Rainbow Six</button>
       </div>
-      <div>
+      <!--<div>
         <img class="icon mb-1" style="margin-left: 2.5em;" src="./gameLogos/cod.png">
         <br>
         <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game9');">Call of Duty</button>
@@ -91,7 +93,7 @@
         <img class="icon mb-1" style="margin-left: 3.75em;" src="./gameLogos/apex.png">
         <br>
         <button type="button" class="btn btn-dark mb-5 ml-3" onclick="switchGame('game10');">Apex Legends</button>
-      </div>
+      </div>-->
       <div>
         <img class="icon mb-1" style="margin-left: 2.75em;" src="./gameLogos/valorant.png">
         <br>
@@ -103,13 +105,13 @@
         <option value="game1" selected>Overwatch</option>
         <option value="game2">League of Legends</option>
         <option value="game3">Rocket League</option>
-        <option value="game4">Hearthstone</option>
+        <option value="game4">Chess</option>
         <option value="game5">Super Smash Bros.</option>
         <option value="game6">Forza 7</option>
         <option value="game7">CS:GO</option>
         <option value="game8">Rainbow Six Siege</option>
-        <option value="game9">Call of Duty</option>
-        <option value="game10">Apex Legends</option>
+        <!--<option value="game9">Call of Duty</option>
+        <option value="game10">Apex Legends</option>-->
         <option value="game11">Valorant</option>
       </select>
     </div>
@@ -136,18 +138,20 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./images/overwatch.png" class="img-fluid">
-              <p><i>Members: Tyler Gies, Finn Mellor, James Lenos (Captain), Aaron Hamm, Kate Reister, Aki Yamazaki</i></p>
+              <p><i>Members: James Lenos, Finn Mellor, Tyler Gies, Aaron Hamm, Aki Yamazaki, Kate Reister, Jacob
+                  Oleksyk</i></p>
               <br>
             </div>
             <div class="carousel-item">
               <h2>Blue Team</h2>
               <img src="./images/overwatch.png" class="img-fluid">
-              <p><i>Members: Andrew Hillsman, Aiden Wilson, Damon Fiocca, Nolan Thorpe (Captain), Matthew Gardner (Captain), JD Slivinski, Jack Ziegle, Ethan Liu</i></p>
+              <p><i>Members: Matthew Gardner, Andrew Hillsman, Damon Fiocca, Richard Zhang, Ethan Liu, Lucas Moore,
+                  Srikrishna Ganeshan</i></p>
             </div>
             <div class="carousel-item">
-              <h2>White Team</h2>
+              <h2>Grey Team</h2>
               <img src="./images/overwatch.png" class="img-fluid">
-              <p><i>Members: Charles Yuan, Oliver Zhu (Captain), Braelen Price, Richard Zhang, Elizabeth Hart, Lucas Moore, Miles Dunbar</i></p>
+              <p><i>Members: Braelen Price, Liz Hamilton, Daniel Moss, Oliver Zhu, Harrison Carter, Miles Dunbar</i></p>
             </div>
           </div>
         </div>
@@ -155,7 +159,9 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">Overwatch is a team-based multiplayer first-person shooter. Players on a team utilize strategies and teamwork to secure and defend control points on a map or escort a payload across the map in a limited
+        <p class="text-justify-left gameInfo">Overwatch is a team-based multiplayer first-person shooter. Players on a
+          team utilize strategies and teamwork to secure and defend control points on a map or escort a payload across
+          the map in a limited
           amount of time.</p>
       </div>
 
@@ -187,8 +193,8 @@
 
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
-        <p>NASEF</p>
         <p>IHSEN</p>
+        <p>NASEF</p>
       </div>
 
     </div>
@@ -215,17 +221,23 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./gameLogos/league.png" class="teamPic">
-              <p><i>Members: Zishuo Wang, James Lenos, Nolan Thorpe, Osa Osarenkhoe, Nyle Nasir (Captain), Evan Wodock, Marvin Fan</i></p>
+              <p><i>Members: Daniel Tian, Marshall Boone, Nyle Nasir, Osa Osarenkhoe, Joshua Boone</i></p>
             </div>
             <div class="carousel-item">
               <h2>Blue Team</h2>
               <img src="./gameLogos/league.png" class="teamPic">
-              <p><i>Members: Michael Zang, Drew Shea, Zachary Fan, Adrien Qi (Captain), Dylan Boyer, Nicolas Zimmowitch</i></p>
+              <p><i>Members: Zishou Wang, Srikrishna Ganeshan, Yianni Paikos, Adrien Qi, Royce Brown, Arjun Purohit, Caleb Kim</i></p>
             </div>
             <div class="carousel-item">
-              <h2>White Team</h2>
+              <h2>Grey Team</h2>
               <img src="./gameLogos/league.png" class="teamPic">
-              <p><i>Members: Owen Siders, Jacob Gold (Captain), Jacob Gaerte, Simon Weddle, Sean Gao</i></p>
+              <p><i>Members: Drew Shea, Jacob Gaerte, Liam Daniels, Jayden Chui, Nolan Thorpe</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>Jacaranda Team</h2>
+              <img src="./gameLogos/league.png" class="teamPic">
+              <p><i>Members: Dylan Boyer, Spencer Waybright, James Lenos, Evan Wodock, Owen Everett, Aki Yamazaki, Aaron
+                  Hamm</i></p>
             </div>
           </div>
         </div>
@@ -233,7 +245,9 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">League of Legends is a Multiplayer Online Battle Area. Two teams of five face off to take down towers, push down lanes, and ultimately destroy the enemy's nexus. Matches usually last anywhere from 15-45
+        <p class="text-justify-left gameInfo">League of Legends is a Multiplayer Online Battle Area. Two teams of five
+          face off to take down towers, push down lanes, and ultimately destroy the enemy's nexus. Matches usually last
+          anywhere from 15-45
           minutes.</p>
       </div>
     </div>
@@ -245,13 +259,20 @@
               <h2>Awards</h2>
               <p>1st Place IHSEN Season 0</p>
               <p>3rd Place IUPUI Lan 2019</p>
+              <p>1st Place Game Head Fest 2k21</p>
+              <p>3rd Place Spring 2021 Greyhound Battlegrounds</p>
             </div>
             <div id="b" class="carousel-item">
               <h2></h2>
               <p></p>
               <p></p>
             </div>
-            <div id="w" class="carousel-item">
+            <div id="g" class="carousel-item">
+              <h2></h2>
+              <p></p>
+              <p></p>
+            </div>
+            <div id="bl" class="carousel-item">
               <h2></h2>
               <p></p>
               <p></p>
@@ -288,22 +309,28 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./images/rl.jpg" class="img-fluid">
-              <p><i>Members: Nicolas Zimmowitch (Captain), Jackson Barnes, Evan Wodock, Michael Ward, Dylan Boyer</i></p>
+              <p><i>Members: Nicolas Zimmowitch, Jackson Barnes, Evan Wodock, Michael Ward, Dylan Boyer</i></p>
             </div>
             <div class="carousel-item">
               <h2>Blue Team</h2>
               <img src="./images/rl2.jpg" class="img-fluid">
-              <p><i>Members: Sam Quigley (Captain), Brayden Burke, Aiden Wilson, Chris Heck, Yuri Jayo</i></p>
+              <p><i>Members: Sam Quigley, Brayden Burke, Aiden Wilson, Conner Rice, Yuri Jayo</i></p>
             </div>
             <div class="carousel-item">
-              <h2>White Team</h2>
+              <h2>Grey Team</h2>
               <img src="./images/rl.jpg" class="img-fluid">
-              <p><i>Members: Spencer Daymude (Captain), Josh Olekszyk, John Van Horn, Ryan Poziviak</i></p>
+              <p><i>Members: Caden Clawson, Spencer Daymude, Adam Byrne, Quintyn Harrington, Daniel Mitkevich</i></p>
             </div>
             <div class="carousel-item">
               <h2>Black Team</h2>
               <img src="./images/rl2.jpg" class="img-fluid">
-              <p><i>Members: Conner Rice, Daniel Friedman (Captain), Caden Clawson, Sam Schuster, Thomas Fels</i></p>
+              <p><i>Members: John Van Horn, Joshey Olekszyk, Daniel Friedman, Olivia Belcher, Will Granju</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>Academy Team</h2>
+              <img src="./images/rl2.jpg" class="img-fluid">
+              <p><i>Members: Jake Johnson, Michael Spech, Ryan Poziviak, Alex Paquette, Christopher Wilcox, Trinity
+                  Bitterman</i></p>
             </div>
           </div>
         </div>
@@ -311,11 +338,15 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p style="padding-top:0px !important;" class="text-justify-left gameInfo"> Rocket League is a vehicular soccer video game developed and published by Psyonix. This game utilizes cars and a team gameplay of mainly 3 versus 3 to create a
+        <p style="padding-top:0px !important;" class="text-justify-left gameInfo"> Rocket League is a vehicular soccer
+          video game developed and published by Psyonix. This game utilizes cars and a team gameplay of mainly 3 versus
+          3 to create a
           competitive Esports
           scene of with over
           $1
-          million in prize pools. The game is fairly easy to pick up but very hard to master with an appeal for all ages as it isn't violent or gory. Rocket League focuses on teamwork, positivity, and practice to grow as a player and as a team.</p>
+          million in prize pools. The game is fairly easy to pick up but very hard to master with an appeal for all ages
+          as it isn't violent or gory. Rocket League focuses on teamwork, positivity, and practice to grow as a player
+          and as a team.</p>
       </div>
     </div>
     <div class="row">
@@ -325,14 +356,15 @@
             <div id="g" class="carousel-item active">
               <h2>Awards</h2>
               <p>1st Place IHSEN Season 0</p>
-              <p>Top 4 Fall 2018 HSEL</p>
               <p>1st Place in Mount St. Joseph University Invitational</p>
               <p>1st Place in 2v2 Rocket League Lan hosted by Sharp</p>
               <p>UGC Battle $5k Champions</p>
+              <p>NASEF Fall 2020 Champions</p>
+              <p>IHSEN Fall 2020 State Champions</p>
             </div>
             <div id="blue" class="carousel-item">
-              <h2></h2>
-              <p></p>
+              <h2>Awards</h2>
+              <p>AVGL Rocket League Brawl Tournament Champion</p>
               <p></p>
               <p></p>
               <p></p>
@@ -345,6 +377,13 @@
               <p></p>
             </div>
             <div id="black" class="carousel-item">
+              <h2></h2>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div id="academy" class="carousel-item">
               <h2></h2>
               <p></p>
               <p></p>
@@ -366,15 +405,15 @@
 
   <div id="game4" class="container bg-light teamCard notActive">
     <div class="noshowmobile row text-center mt-3">
-      <img style="width:3.5em;" class="mb-3 ml-auto mr-3 mt-2" src='./gameLogos/hs.png'>
-      <h1 class="mr-auto mt-4">Hearthstone</h1>
+      <img style="width:3.5em;" class="mb-3 ml-auto mr-3 mt-2" src='./gameLogos/chess.png'>
+      <h1 class="mr-auto mt-4">Chess</h1>
     </div>
     <div class="showmobile row text-center mt-3 ml-auto mr-auto">
       <div class="col-md-2">
-        <img style="width:3.5em;" class="mb-3" src='./gameLogos/hs.png'>
+        <img style="width:3.5em;" class="mb-3" src='./gameLogos/chess.png'>
       </div>
       <div class="col-md-10">
-        <h1 class="mt-4">Hearthstone</h1>
+        <h1 class="mt-4">Chess</h1>
       </div>
     </div>
 
@@ -384,8 +423,8 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h2>Gold Team</h2>
-              <img src="./gameLogos/hs.png" class="teamPic">
-              <p><i>Members: Oren Jensen (Captain), Nolan Thorpe</i></p>
+              <img src="./gameLogos/chess.png" class="teamPic">
+              <p><i>Members: Miles Dunbar, Oren Jensen, Nolan Thorpe, Jacob Gold, Spencer Daymude</i></p>
             </div>
           </div>
         </div>
@@ -393,8 +432,8 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">Hearthstone is an interactive online card game created by Blizzard consisting of two opponents taking turns. Players can summon minions and cast spells in an effort to reduce their opponent's health to 0
-          to win.</p>
+        <p class="text-justify-left gameInfo">Classic Chess in a modern format using chess.com in weekly tournaments.
+        </p>
       </div>
     </div>
     <div class="row">
@@ -403,7 +442,7 @@
           <div class="carousel-inner">
             <div id="g" class="carousel-item active">
               <h2>Awards</h2>
-              <p>2nd Place IHSEN Season 0</p>
+              <p></p>
             </div>
           </div>
         </div>
@@ -434,14 +473,9 @@
         <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <h2>1v1</h2>
+              <h2>Super Smash Bros. Team</h2>
               <img src="./gameLogos/smash.png" class="teamPic">
-              <p><i>Members: Blake Wehlage, Elliott Rudy, William Bennett (Captain), Daphne Peterson, Jack Sibbitt (Captain), Jake Kohl, Jacob Moore, Max Ruderman, Sam Dreher, Clay Stults</i></p>
-            </div>
-            <div class="carousel-item">
-              <h2>2v2</h2>
-              <img src="./gameLogos/smash.png" class="teamPic">
-              <p><i>Members: Blake Wehlage, Jack Sibbitt (Captain), Elliott Rudy, Max Ruderman, William Bennett (Captain), Daphne Peterson, Sam Dreher, Sebastian Herrera, Clay Stults, Grayson Buck, Gaby Delgado, Zach Peterson</i></p>
+              <p><i>Members: William Bennett, Gavin Mihalus, Elliot Rudy, Daphne Peterson, Jack Sibbit, Max Ruderman, Blake Whelage, Joseph Sabelhaus, Clay Stults, Jake Kohl, Gaby Delgado, Zach Peterson, Dylan Trefethen, Jack Wareham, Matthew Peters, Juno Herrera, Jack Cappaert, Sam Geyer, Adi Ariyur, Sam Dreher, Dewayne Holman</i></p>
             </div>
           </div>
         </div>
@@ -449,7 +483,9 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">Super Smash Brothers Ultimate is a fighting game by Nintendo. It has multiple characters from popular video game franchises, such as Mario, Sonic, and Zelda, all duking it out on a battlefield. Each
+        <p class="text-justify-left gameInfo">Super Smash Brothers Ultimate is a fighting game by Nintendo. It has
+          multiple characters from popular video game franchises, such as Mario, Sonic, and Zelda, all duking it out on
+          a battlefield. Each
           player is given three lives, and the first person to knock out the others lives is the winner.</p>
       </div>
     </div>
@@ -462,18 +498,11 @@
               <p></p>
             </div>
           </div>
-          <div id="2v2" class="carousel-inner">
-            <div id="g" class="carousel-item active">
-              <h2></h2>
-              <p></p>
-            </div>
-          </div>
         </div>
       </div>
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
         <p>IHSEN</p>
-        <p>IGL<p>
       </div>
     </div>
   </div>
@@ -499,7 +528,7 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./images/forza.png" class="img-fluid">
-              <p><i>Members: Thomas Johnson, Luke Rosenthall (Captain)</i></p>
+              <p><i>Members: Luke Rosenthall, Alex Pallotta, Thomas Johnson, Brandon Hardin</i></p>
             </div>
           </div>
         </div>
@@ -507,7 +536,8 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">Forza is a modern sim like racing game, with realistic tracks and car physics. You can tune your own car, race with friends, and even drift with the new drift update.</p>
+        <p class="text-justify-left gameInfo">Forza is a modern sim like racing game, with realistic tracks and car
+          physics. You can tune your own car, race with friends, and even drift with the new drift update.</p>
       </div>
     </div>
     <div class="row">
@@ -543,20 +573,22 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./images/csgo.jpg" class="img-fluid">
-              <p><i>Members: Bryce Cheetham (Captain), Adrien Qi, Michael Zhang, Ben Lin, Chris Custer, Romaric Cansino</i></p>
+              <p><i>Members: Cole Bayer, Max Watson, Ben Lin, Dimitri Paikos, Ryan Zhang, Caleb Suhy, Michael Morfas,
+                  Adrien Qi</i></p>
             </div>
-            <div class="carousel-item">
+            <!--<div class="carousel-item">
               <h2>Blue Team</h2>
               <img src="./images/csgo.jpg" class="img-fluid">
-              <p><i>Members: Cole Bayer (Captain), Dimitri Paikos, Glen Cheng, Billy Qian, Michael Morfas, Matthew Dimond</i></p>
-            </div>
+              <p><i>Members: </i></p>
+            </div>-->
           </div>
         </div>
       </div>
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">CSGO is a 5 v 5 FPS where one team attempts to take the objective by planting the bomb, and the other team seeks to eliminate the enemy team or defuse the bomb.</p>
+        <p class="text-justify-left gameInfo">CSGO is a 5 v 5 FPS where one team attempts to take the objective by
+          planting the bomb, and the other team seeks to eliminate the enemy team or defuse the bomb.</p>
       </div>
     </div>
     <div class="row">
@@ -567,16 +599,16 @@
               <h2>Awards</h2>
               <p>1st Place HSEL Fall Major 2019</p>
             </div>
-            <div class="carousel-item">
+            <!--<div class="carousel-item">
               <h2></h2>
               <p></p>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
-        <p>HSEL</p>
+        <p>ESEA</p>
       </div>
     </div>
   </div>
@@ -602,17 +634,23 @@
             <div class="carousel-item active">
               <h2>Gold Team (PC)</h2>
               <img src="./images/r6.jpg" class="img-fluid">
-              <p><i>Members: Chase Hutchison, Nicholas Savitch, Danny Moss (Captain), Matthew Dimond, Oliver Zhu</i></p>
+              <p><i>Members: Roberto Bolado, Jake Forrest, Charles Schuman, Chase Hutchison, Kamden Trent, Matthew Dimond, Spencer Luhrs, Tyler Ros</i></p>
             </div>
             <div class="carousel-item">
               <h2>Blue Team (PC)</h2>
               <img src="./images/r6.jpg" class="img-fluid">
-              <p><i>Members: Richard Zhang (Captain), Dhiraj Bobba, Charlie Weaver, Charles Yuan, Brandon Hardin, Thomas Johnson</i></p>
+              <p><i>Members: Danny Moss, Will Engle, Dhiraj Bobba, Oliver Zhu, Quintyn Harrington, Hamza Raddad</i></p>
             </div>
             <div class="carousel-item">
               <h2>Gold Team (XBOX)</h2>
               <img src="./images/r6.jpg" class="img-fluid">
-              <p><i>Members: Aaron Hamm, Sam Quigley, Nathan Ashley, Spencer Daymude (Captain), Zach Streitenberger, Kevin Russo, Jeulien Wallace, Oliver Mason</i></p>
+              <p><i>Members: Spencer Daymude, Sam Quigley, Aaron Hamm, Owen Woodward, Zach Streitenburger, Grant Pearson, Avery Gates</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>Blue Team (XBOX)</h2>
+              <img src="./images/r6.jpg" class="img-fluid">
+              <p><i>Members: Harrison Carter, Sukhraj Dulay, Kevin Ruso, Alex Park, Christian Neilson, Alex Paquette,
+                  Oliver Mason</i></p>
             </div>
           </div>
         </div>
@@ -620,8 +658,11 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter where teams are supposed to pick operators (characters) from a variety that has over 50 operators to choose from. Teams are also pitted to either
-          defend or defuse/capture an objective. The game is availible from PC to Xbox and PS4 but we have only four teams, 1 in Xbox and 2 in PC. </p>
+        <p class="text-justify-left gameInfo">Rainbow Six Siege is a 5v5 tactical team based shooter where teams are
+          supposed to pick operators (characters) from a variety that has over 50 operators to choose from. Teams are
+          also pitted to either
+          defend or defuse/capture an objective. The game is availible from PC to Xbox and PS4 but we have only four
+          teams, 1 in Xbox and 2 in PC. </p>
       </div>
     </div>
     <div class="row">
@@ -630,7 +671,11 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h2>Awards</h2>
-              <p>Top 8 in HSEL Fall Major</p>
+              <p>Qualified for Championship Bracket SPIN</p>
+            </div>
+            <div class="carousel-item">
+              <h2></h2>
+              <p></p>
             </div>
             <div class="carousel-item">
               <h2></h2>
@@ -645,12 +690,13 @@
       </div>
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
+        <p>SPIN</p>
         <p>HSEL</p>
       </div>
     </div>
   </div>
 
-  <div id="game9" class="container bg-light teamCard notActive">
+  <!--<div id="game9" class="container bg-light teamCard notActive">
     <div class="noshowmobile row text-center mt-3">
       <img style="width:3.5em;" class="mb-3 ml-auto mr-3 mt-2" src='./gameLogos/cod.png'>
       <h1 class="mr-auto mt-4">Call of Duty</h1>
@@ -671,7 +717,7 @@
             <div class="carousel-item active">
               <h2>Modern Warfare: Gunfight</h2>
               <img src="./gameLogos/cod.png" class="teamPic">
-              <p><i>Members: Davi Dutra, Nikolas Koniaris, Keshuan Grasty, Jacob Fletcher, Danny Moss, Cole Palermo</i></p>
+              <p><i>Members: </i></p>
             </div>
           </div>
         </div>
@@ -679,8 +725,11 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo"> Call of Duty: Modern Warfare is a recent installment in the Call of Duty franchise. Gun Fight is a 2v2 game in which you spawn with random guns with random attachments and equipment. You can win by
-          eliminating the enemy team or capturing the overtime flag. The first team with 6 round wins, wins the entire match.</p>
+        <p class="text-justify-left gameInfo"> Call of Duty: Modern Warfare is a recent installment in the Call of Duty
+          franchise. Gun Fight is a 2v2 game in which you spawn with random guns with random attachments and equipment.
+          You can win by
+          eliminating the enemy team or capturing the overtime flag. The first team with 6 round wins, wins the entire
+          match.</p>
       </div>
     </div>
     <div class="row">
@@ -716,7 +765,7 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./gameLogos/apex.png" class="teamPic">
-              <p><i>Members: Oliver Mason, Daniel Friedman</i></p>
+              <p><i>Members: </i></p>
             </div>
           </div>
         </div>
@@ -724,7 +773,8 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">Apex Legends is a futuristic multiplayer battle royale game. In this game 20 teams of 3 face off against one another.</p>
+        <p class="text-justify-left gameInfo">Apex Legends is a futuristic multiplayer battle royale game. In this game
+          20 teams of 3 face off against one another.</p>
       </div>
     </div>
     <div class="row">
@@ -737,7 +787,7 @@
         <p>IGL</p>
       </div>
     </div>
-  </div>
+  </div>-->
 
   <div id="game11" class="container bg-light teamCard notActive">
     <div class="noshowmobile row text-center mt-3">
@@ -760,12 +810,17 @@
             <div class="carousel-item active">
               <h2>Gold Team</h2>
               <img src="./gameLogos/valorant.png" class="teamPic">
-              <p><i>Members: Bryce Cheetham (Captain), Adrien Qi, Michael Zhang, John Sormillon, Srikrishna Ganeshan</i></p>
+              <p><i>Members: Cole Bayer, Ryan Zhang, Srikrishna Ganeshan, Adrien Qi, Christopher Yu, Richard Zhang</i></p>
             </div>
             <div class="carousel-item">
-              <h2>Gold Team</h2>
+              <h2>Blue Team</h2>
               <img src="./gameLogos/valorant.png" class="teamPic">
-              <p><i>Members: Hamza Raddad, Ryan Zhang, Richard Zhang, Sam Yates, Cole Bayer (Captain), Harrison Ludwig, Bransen Brown</i></p>
+              <p><i>Members: Hamza Aburaddad, Eddie Sun, Aryan Bakshi, Kent Fujita, Bransen Brown, Ethan Liu</i></p>
+            </div>
+            <div class="carousel-item">
+              <h2>Grey Team</h2>
+              <img src="./gameLogos/valorant.png" class="teamPic">
+              <p><i>Members: Rohoan Daniels, Sam Yates, Jake Kohl, Spencer Waybright, Cole Weiland, Ellie Childress</i></p>
             </div>
           </div>
         </div>
@@ -773,7 +828,9 @@
 
       <div class="col-md-6" id="GameInfo">
         <h2 class="text-center">Game Info</h2>
-        <p class="text-justify-left gameInfo">Valorant is a 5v5 ability based first person tactical shooter that focuses heavily on team play and strategy. The objective of the game is to plant and defend the spike and to prevent the defenders from
+        <p class="text-justify-left gameInfo">Valorant is a 5v5 ability based first person tactical shooter that focuses
+          heavily on team play and strategy. The objective of the game is to plant and defend the spike and to prevent
+          the defenders from
           defusing the spike. </p>
       </div>
     </div>
@@ -789,12 +846,18 @@
               <h2></h2>
               <p></p>
             </div>
+            <div id="g" class="carousel-item">
+              <h2></h2>
+              <p></p>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 text-center">
         <h2>Leagues</h2>
         <p>HSEL</p>
+        <p>ESPIN</p>
+        <p>Tournaments</p>
       </div>
     </div>
   </div>
@@ -805,7 +868,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="./main.js?id=teams" id="nav-bar"></script>
+  <script id="nav-bar" src="./main.js?id=teams"></script>
 
 </body>
 
