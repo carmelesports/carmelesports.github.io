@@ -12,7 +12,7 @@ function updateResults() {
       var input = moment(date);
       var game = score.game;
       var gameDiv = document.getElementById(divInterpret(game) + "Div");
-      var isThisWeek = (now.isoWeek() == input.isoWeek())
+      var isThisWeek = (now.isoWeek() == input.isoWeek() && now.year() == input.year())
       if (isThisWeek) {
         numScores++;
         var gameInt = gameInterpret(game);
