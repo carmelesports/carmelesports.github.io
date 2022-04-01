@@ -36,9 +36,6 @@ $(function() {
           <li id="media" class="nav-item">\
             <a class="nav-link" href="../media.html">Media</a>\
           </li>\
-          <li id="merch" class="nav-item">\
-            <a class="nav-link" href="https://guardianproline.com/collections/carmel-esports>Merch</a>\
-          </li>\
           <li class="nav-item dropdown">\
             <a class="nav-link dropdown-toggle" href="../about.html" id="about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
               About\
@@ -83,9 +80,6 @@ $(function() {
           </li>\
           <li id="media" class="nav-item">\
             <a class="nav-link" href="./media.html">Media</a>\
-          </li>\
-          <li id="merch" class="nav-item">\
-            <a class="nav-link" href="https://guardianproline.com/collections/carmel-esports>Merch</a>\
           </li>\
           <li class="nav-item dropdown">\
             <a class="nav-link dropdown-toggle" href="./about.html" id="about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
