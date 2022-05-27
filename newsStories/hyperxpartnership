@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172905015-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-172905015-1');
+  </script>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <link rel="stylesheet" href="../style.css">
+  <title>Carmel Esports | News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div id="navDiv" class="sticky-top"></div>
+  <div id="mainJumbo" class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="display-3 text-white">NEWS</h1>
+      </div>
+    </div>
+    <div id="theDiv" class="home float-bottom" style="width:100%; height:2px;"></div>
+  </div>
+
+
+  <div class="container">
+    <div style="margin-top:-5rem;" class="row justify-content-center">
+      <h1 class="display-4 text-center">Carmel Esports, Inc. & HyperX Build a Better Lab</h1>
+    </div>
+
+    <div class="row blank"></div>
+    <figure class="text-center" style="float:top;" class="figure">
+      <img src="../pictures/hyperx" class="img-fluid rounded" alt="HyperX and Carmel Esports Banner">
+    </figure>
+
+    <div class="row">
+      <div class="col-md-12">
+        <br>
+        <p class="text-justify newsText">Carmel, IN – May 26, 2022 - HyperX has agreed to sponsor Carmel Esports, Inc. to elevate promising young esports talent and professionals at Carmel High School in Carmel, Indiana. Aiming to provide all students with the tools they need to succeed, HyperX has been a consistent supporter of scholastic esports at both the high school and collegiate level through their sponsorships with organizations like the North American Scholastic Esports Federation and the University of New Haven. Carmel Esports. Under the direction of Dylan Gentilcore, players will be challenged to reach their potential both in and out of game. Through the hard work of Carmel High School senior Nyle Nasir and the support of Carmel Esports, Inc., future players can now reach new heights.</p>
+
+        <p class="text-justify newsText">Carmel Esports, Inc. & HyperX break ground in high school esports with a new two-year sponsorship to establish HyperX as the official gaming peripheral sponsor of Carmel Esports in their esports competition and practice space at Carmel High School. HyperX, an industry leader in gaming and esports peripherals, creates durable, comfortable products aimed at every type of player. Committed to inclusivity, HyperX’s diverse catalog of high-quality peripherals acknowledges that we’re all gamers with different needs. In the scholastic setting where one-size-fits-all solutions rarely work, HyperX provide students, teachers, and schools with an expansive catalog of affordable equipment that can take their game to the next level. In their sponsorship with Carmel High School, not only will HyperX be furnishing every computer in the lab with an Alloy Origins Mechanical Gaming Keyboard, Pulsefire Haste Gaming Mouse, FURY S Gaming Mousepads, and Cloud Revolver S Gaming Headsets, but HyperX is also providing  QuadCast S Microphone as well as prizing for the newly branded HyperX Greyhound Battlegrounds, an online national high school esports tournament free and open to gamers all across the United States created and operated by Carmel Esports students. The first HyperX Greyhound Battlegrounds took place April 22-24 and featured dozens of the most talented programs from coast to coast. Each winning player took home a HyperX Cloud II Gaming Headset, one of the most recognized gaming peripherals on the market. As HyperX continues to invest in young North American talent, players can expect that this is only the beginning.</p>
+
+        <p class="text-justify newsText">Knowing that esports encompasses a world much larger than playing, Dylan Gentilcore, Director of Carmel Esports, and his student-leaders began expanding the team’s scope to include content creation, marketing, graphic design, web design, social media management, and tournament organizing. As of this year, Carmel Esports has finally established a permanent esports lab within the halls of Carmel High School, but that is only the beginning of Gentilcore’s mission.</p>
+
+        <p class="text-justify newsText"><emph>“I’ve always believed that we could bring an equitable, quality experience to every student that walks through our doors with the right partner. Nyle Nasir and I started this journey three years ago by promoting Carmel players and events, building a value proposal, and reaching out to non-endemic and endemic esports partners. HyperX is investing in the not only the future of high school esports with this partnership but the future of young, ambitious professionals like Nyle. This is the start of a new era of high school esports not just at Carmel but across the country.” – Dylan Gentilcore, Director of Carmel Esports, Co-Director of Indiana High School Esports Network (IHSEN)</emph></p>
+
+        <p class="text-justify newsText"><emph> “I’m constantly searching for a way to take high school esports, especially in League of Legends, to the next level. There is so much talent and opportunity swept under the rug within the high school scene over the past decade, and I believe that Carmel Esports will be able to break that standard. But it's not only the esports scene that has given high schoolers a lack of attention. From what I have seen, one of the biggest hurdles to a student in esports is getting your peers, parents, and community to believe in you. By working with HyperX, I hope to solidify working in the business side of esports as a viable career option for all students, so that seeking a job in esports can be taken in stride.”– Nyle Nasir, Student Officer, Treasurer, & Marketing Lead of Carmel Esports</emph></p>
+
+        <p class="text-justify newsText">HyperX and Carmel Esports, Inc. are committed to helping students like Nyle become the next generation of industry innovators and leaders. To keep up with the sponsorship at every step of the way, stay tuned to https://carmelesports.com/ and https://linktr.ee/carmelesports. The official Carmel Esports jersey, now available at their merch store, allows you to represent HyperX and Carmel Esports in a custom-order jersey design. You can find access to HyperX’s entire suite of elite gaming peripherals at https://www.hyperx.com.</p>
+
+        <h4>About Carmel Esports, Inc.</h4>
+
+        <p class="text-justify newsText">Newly established by students and families in Carmel, IN, Carmel Esports, Inc. is a nonprofit corporation supporting esports programs across Carmel Clay School District.</p>
+
+        <h4>About HyperX</h4>
+
+        <p class="text-justify newsText">For 19 years, HyperX’s mission has been to develop gaming solutions for every type of gamer and the company is consistently recognized for delivering products that provide superior comfort, aesthetics, performance, and reliability. Under the tagline of “WE’RE ALL GAMERS,” HyperX gaming headsets, keyboards, mice, USB microphones, and console accessories are the choice of everyday gamers as well as celebrity ambassadors, pro gamers, tech enthusiasts, and overclockers worldwide because they meet the most stringent product specifications and are built with best-in-class components. For more information, please go to <a href="www.hyperx.com" target="_blank">www.hyperx.com</a>.</p>
+      </div>
+    </div>
+
+
+    <br><br><br><br><br><br><br><br>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="../main.js?id=news" id="nav-bar"></script>`
+</body>
+
+</html>
